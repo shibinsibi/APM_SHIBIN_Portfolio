@@ -24,7 +24,7 @@ export const EffectiveCommunicationCaseStudyPage: React.FC<EffectiveCommunicatio
     if (typeof window !== 'undefined') {
       return (
         localStorage.getItem('vitafit_prd_pdf_url') ||
-        'https://drive.google.com/file/d/placeholder-vitafit-prd/view?usp=sharing'
+        'https://drive.google.com/file/d/1OWRCkNAYp2rDp1P9fYCaZWEsy2FL8KJt/view?usp=sharing'
       );
     }
     return '';
