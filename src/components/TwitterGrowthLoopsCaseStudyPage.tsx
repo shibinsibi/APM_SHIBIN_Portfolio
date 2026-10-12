@@ -21,7 +21,7 @@ export const TwitterGrowthLoopsCaseStudyPage: React.FC<TwitterGrowthLoopsCaseStu
     if (typeof window !== 'undefined') {
       return (
         localStorage.getItem('twitter_growth_loops_pdf_url') ||
-        'https://app.notion.com/p/Twitter-X-Product-Launch-Adoption-3f797eaf8f5a80d8ba4ac27f83e78a28?source=copy_link'
+        'https://app.notion.com/p/Section-1-Growth-Loop-Mapping-3f797eaf8f5a80c88fa6f972c874bc38?source=copy_link'
       );
     }
     return '';
