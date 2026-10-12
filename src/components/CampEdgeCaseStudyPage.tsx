@@ -26,7 +26,7 @@ export const CampEdgeCaseStudyPage: React.FC<CampEdgeCaseStudyPageProps> = ({
     if (typeof window !== 'undefined') {
       return (
         localStorage.getItem('campedge_prototype_url') ||
-        'https://lovable.dev'
+        'https://campedge-trust-ux.lovable.app'
       );
     }
     return '';
