@@ -18,15 +18,9 @@ export const CampEdgeCaseStudyPage: React.FC<CampEdgeCaseStudyPageProps> = ({
   onBack,
 }) => {
   // State for presentation & prototype links with localStorage persistence
-  const [pdfUrl, setPdfUrl] = useState<string>(() => {
-    if (typeof window !== 'undefined') {
-      return (
-        localStorage.getItem('campedge_pdf_url') ||
-        'https://docs.google.com/presentation/d/e/2PACX-1vTplaceholder/pub?start=false&loop=false&delayms=3000'
-      );
-    }
-    return '';
-  });
+  const [pdfUrl, setPdfUrl] = useState<string>(
+'https://drive.google.com/file/d/16DOUCSfbVF62Pym9II0jXNWd3KsXONIM/view?usp=sharing'
+);
 
   const [prototypeUrl, setPrototypeUrl] = useState<string>(() => {
     if (typeof window !== 'undefined') {
