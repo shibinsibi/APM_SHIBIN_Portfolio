@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowDown, Download, Linkedin, Mail, Camera } from 'lucide-react';
-import portraitImg from '../assets/images/shibin_sibi_photo_1790405808234.jpg';
+import portraitImg from '../assets/images/port.jpeg';
 import { PERSONAL_INFO } from '../data/portfolioData';
 import { HeroSculpture3D } from './3d/HeroSculpture3D';
 
