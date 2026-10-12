@@ -1,0 +1,6 @@
+{
+  "name": "Shibin Sibi — Product Management × AI × E-commerce",
+  "description": "Premium editorial portfolio and personal technology journal of Shibin Sibi, exploring the intersection of Product Management, Artificial Intelligence, and E-commerce.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
