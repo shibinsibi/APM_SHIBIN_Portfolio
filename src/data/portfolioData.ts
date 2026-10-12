@@ -1,4 +1,4 @@
-import portraitImg from '../assets/images/shibin_sibi_photo_1790405808234.jpg';
+import portraitImg from '../assets/images/port.jpeg';
 import aiCommerceImg from '../assets/images/project_ai_commerce_1790403028356.jpg';
 import growthPlatformImg from '../assets/images/project_growth_platform_1790403045841.jpg';
 import journalEssayImg from '../assets/images/journal_ai_essay_1790403057164.jpg';
