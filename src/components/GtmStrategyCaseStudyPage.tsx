@@ -18,7 +18,7 @@ export const GtmStrategyCaseStudyPage: React.FC<GtmStrategyCaseStudyPageProps> =
       return (
         localStorage.getItem('tech101_system_design_pdf_url') ||
         localStorage.getItem('gtm_strategy_pdf_url') ||
-        'https://drive.google.com/file/d/placeholder-tech101-system-design/view?usp=sharing'
+        'https://app.notion.com/p/Tech-101-System-Design-35b97eaf8f5a80b2bf6adb08978d4a5f?source=copy_link'
       );
     }
     return '';
