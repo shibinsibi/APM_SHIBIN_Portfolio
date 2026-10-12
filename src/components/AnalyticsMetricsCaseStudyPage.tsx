@@ -21,7 +21,7 @@ export const AnalyticsMetricsCaseStudyPage: React.FC<AnalyticsMetricsCaseStudyPa
     if (typeof window !== 'undefined') {
       return (
         localStorage.getItem('zomato_analytics_pdf_url') ||
-        'https://drive.google.com/file/d/placeholder-zomato-analytics/view?usp=sharing'
+        'https://app.notion.com/p/Analytics-and-Metrics-30197eaf8f5a8089a566f8e707cd2bca?source=copy_link'
       );
     }
     return '';
